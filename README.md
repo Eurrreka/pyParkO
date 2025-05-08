@@ -138,21 +138,21 @@ ptr.plt_conterf(true_topography, x_ticks, y_ticks, colorbar="vertical", title="t
 ptr.plt_conterf(inverse_topography, x_ticks, y_ticks, colorbar="vertical", title="inverse")
 ```
 
-![png](plot_true.png)
-![png](plot_inverse.png)
+<img src="https://raw.githubusercontent.com/Eurrreka/pyParkO/refs/heads/main/plot_true.png" width="600">
+<img src="https://raw.githubusercontent.com/Eurrreka/pyParkO/refs/heads/main/plot_inverse.png" width="600">
 
 We further presents the 2-D planar differential contour maps between the inverted seafloor topography and the true seafloor topography from Crust 1.0:
 ```python
 ptr.plt_conterf((true_topography-inverse_topography)*1000, x_ticks, y_ticks, colorbar="vertical", title=f"Residual of Area")
 ```
 
-![png](plot_residual.png)
+<img src="https://raw.githubusercontent.com/Eurrreka/pyParkO/refs/heads/main/plot_residual.png" width="600">
 
 ### Parametric Exploration
 For the constant density contrast inversion model (CDIM), we investigated the effect of variations in delta_sigma on the precision of the inversion. The CDIM iterative step size for delta_sigma is set to 0.2. As delta_sigma increases, the RMSE first decreases and then increases. We use the plt_twin method of the Ploter class to visualize this result:
-![png](density_exploration.png)
+<img src="https://raw.githubusercontent.com/Eurrreka/pyParkO/refs/heads/main/density_exploration.png" width="600">
 Since the difference between CDIM and VDIM lies in the value of the parameter mu, we further explored the parameter mu for VDIM based on the optimal density contrast. We also visualized this result using the plt_twin method of the Ploter class:
-![png](mu_exploration.png)
+<img src="https://raw.githubusercontent.com/Eurrreka/pyParkO/refs/heads/main/mu_exploration.png" width="600">
 
 ## References
 Parker, R., 1973. The rapid calculation of potential anomalies. Geophysical Journal International 31, 447–455.
