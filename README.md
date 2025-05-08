@@ -149,9 +149,12 @@ ptr.plt_conterf((true_topography-inverse_topography)*1000, x_ticks, y_ticks, col
 <img src="https://raw.githubusercontent.com/Eurrreka/pyParkO/refs/heads/main/plot_residual.png" width="600">
 
 ### Parametric Exploration
-For the constant density contrast inversion model (CDIM), we investigated the effect of variations in delta_sigma on the precision of the inversion. The CDIM iterative step size for delta_sigma is set to 0.2. As delta_sigma increases, the RMSE first decreases and then increases. We use the plt_twin method of the Ploter class to visualize this result:
+For the constant density contrast inversion model (CDIM), we investigated the effect of variations in delta_sigma on the precision of the inversion. The CDIM iterative step size for delta_sigma is set to 0.2. As delta_sigma increases, the RMSE first decreases and then increases. We use the plt_twin method of the Ploter class to visualize this result.
+
 <img src="https://raw.githubusercontent.com/Eurrreka/pyParkO/refs/heads/main/density_exploration.png" width="600">
-Since the difference between CDIM and VDIM lies in the value of the parameter mu, we further explored the parameter mu for VDIM based on the optimal density contrast. We also visualized this result using the plt_twin method of the Ploter class:
+
+Since the difference between CDIM and VDIM lies in the value of the parameter mu, we further explored the parameter mu for VDIM based on the optimal density contrast. We also visualized this result using the plt_twin method of the Ploter class.
+
 <img src="https://raw.githubusercontent.com/Eurrreka/pyParkO/refs/heads/main/mu_exploration.png" width="600">
 
 ## References
