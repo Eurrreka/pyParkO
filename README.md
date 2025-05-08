@@ -86,7 +86,7 @@ y_ticks = ['20.0°N', '22.5°N', '25.0°N', '27.5°N', '30.0°N']
 ptr.plt_conterf(vgg, x_ticks, y_ticks, colorbar="vertical", title="vgg")
 ```
 
-![png](plot_vgg.png)
+<img src="https://raw.githubusercontent.com/Eurrreka/pyParkO/refs/heads/main/plot_vgg.png" width="600">
 
 ### Invert the seafloor topography
 To run the demo, you must import the library:
