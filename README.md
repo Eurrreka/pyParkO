@@ -40,7 +40,7 @@ To run the demo, you must import the library:
 ```python
 from pyParkO import Interface2Gravity
 ```
-We selected the Western Pacific region: Area (150°E~160°E, 20°N~30°N)
+We selected the Western Pacific region: Area (150°E ~ 160°E, 20°N ~ 30°N)
 ```python
 # Read data (the data from Crust 1.0)
 interface_depth = np.loadtxt('interface_depth.csv', delimiter=',')
